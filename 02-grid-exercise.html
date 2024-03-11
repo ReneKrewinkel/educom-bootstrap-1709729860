@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Exercise</title>
+</head>
+<style>
+    body {
+        padding: 20px
+    }
+    .gray {
+        background-color: #AAA;
+        text-align: center;
+        padding: 40px;
+        border: 1px solid #FFF;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 gray">top</div>
+        </div>
+        <div class="row">
+            <div class="col-4 gray">mid left</div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-6 gray">right top 1</div>
+                    <div class="col-6 gray">right top 2</div>
+                </div>
+                <div class="row">   
+                    <div class="col-12 gray">right bottom</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 gray">bottom</div>
+        </div>
+    </div>
+</body>
+</html>
